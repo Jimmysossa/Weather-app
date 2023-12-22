@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Diphylleia', serif;
+}
+h1,h2,h3,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+img {
+    display: block;
+    width: 100%;
+}
+button, input {
+    font-family: inherit;
+}
+button {
+    cursor: pointer;
+}
