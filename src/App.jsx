@@ -50,7 +50,7 @@ function App() {
     <div className='app'>
       {
         isLoading
-          ? <h2>Loading...</h2>
+          ? <video src='./public/loanding.mp4' autoPlay muted loop className='loanding'></video>
           : ( 
             <WeatherCard weather={weather}  
             temp= {temp}
